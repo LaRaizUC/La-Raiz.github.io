@@ -1,52 +1,78 @@
 ---
 layout: default
-title: La Raíz
+title: La Raíz UC
 ---
 
-# Construyendo Agentes de Cambio 🌿
+<nav class="nav-iniciativa">
+  <a href="#historia">Sobre Nosotros</a>
+  <a href="#vision">Visión y Misión</a>
+  <a href="#galeria">Galería</a>
+  <a href="#contacto">Contacto</a>
+</nav>
 
-[Conoce nuestro impacto](#trayectoria){: .btn }
+# La Raíz 🌿
+**Iniciativa estudiantil de la UC**
 
-## Nuestros Proyectos
-
-<div class="proyecto-card">
-  <h3>🌱 Manos En La Tierra</h3>
-  <p>Gestión de residuos orgánicos y cultivo comunitario en la universidad.</p>
-  <a href="./proyectos/huertos.md">Ver más →</a>
+<div class="redes-sociales">
+  <a href="https://instagram.com/tu-cuenta" target="_blank">📸 Instagram</a>
+  <a href="mailto:laraizuc@gmail.com">✉️ Contacto</a>
 </div>
 
-<div class="proyecto-card">
-  <h3>♻️ Kit Verde</h3>
-  <p>Optimización de puntos limpios y educación ambiental para estudiantes.</p>
-  <a href="./proyectos/residuos.md">Ver más →</a>
+<div class="frase-impacto">
+  <p>"Transformando personas, cultivando conciencia para el futuro."</p>
 </div>
 
-<div class="proyecto-card">
-  <h3>📚 Contemplación Natural</h3>
-  <p>Formación constante para líderes del mañana en crisis climática.</p>
-  <a href="./proyectos/educacion.md">Ver más →</a>
+<h2 id="historia">Sobre Nosotros</h2>
+La Raíz es una organización universitaria que se dedica a la formación y acción en  sustentabilidad. Nace el año 2020 como continuación del trabajo que venía  desarrollando CVerde en la UC desde el año 2014. Nos dedicamos a la acción a  través del desarrollo de proyectos y emprendimientos ligados a distintas áreas socioambientales tales como la política, el compostaje, la educación ambiental, huertas agroecológicas, reciclaje, artivismo y voluntariados. Con ellos buscamos concientizar a la comunidad universitaria sobre las distintas problemáticas atingentes a la crisis climática y qué se puede hacer desde nuestras posiciones como estudiantes para combatirlas.
+
+<h2 id="vision">Visión</h2>
+Queremos ser referentes y líderes en sustentabilidad y cuidado del medio ambiente. Buscamos que los estudiantes universitarios impulsen no solo una universidad más consciente y comprometida con la crisis climática; sino también un cambio de paradigma en la sociedad, promoviendo que el planeta no sea visto como algo que nos pertenece, sino como un bien que debemos proteger y cuidar.
+
+<h2 id="vision">Misión</h2>
+1. Desarrollar proyectos de acción que aporten soluciones a la crisis climática  y de los ecosistemas, en la UC y el país. 
+2. Formar, educar e involucrar a personas capaces de liderar procesos de  cambio socio ambiental, referentes en                  sustentabilidad y transmisores de  estos conocimientos. 
+3. Consolidar una comunidad con sentido de pertenencia, que sostenga proyectos robustos y permanentes en el tiempo. 
+   Inculcar conciencia socioambiental en la comunidad universitaria y en la sociedad en general.
+
+
+
+<h2 id="proyectos">Nuestros Proyectos</h2>
+
+<div class="grid-columnas">
+  <div class="proyecto-card">
+    <h3>🌱 Manos En La Tierra</h3>
+    <p>Implementación del primer sistema de compostaje a gran escala en San Joaquín.</p>
+    <a href="./2024.md" class="btn">Leer más</a>
+  </div>
+
+  <div class="proyecto-card">
+    <h3>🥕 Contemplación Natural</h3>
+    <p>Creación de la red de huertos comunitarios y talleres de siembra urbana.</p>
+    <a href="./2025.md" class="btn">Leer más</a>
+  </div>
+
+  <div class="proyecto-card">
+    <h3>📈 Reverdecer</h3>
+    <p>Reducción del 30% en plásticos de un solo uso en cafeterías.</p>
+    <a href="./2026.md" class="btn">Leer más</a>
+  </div>
+  
+   <div class="proyecto-card">
+    <h3>📈 Kit Verde</h3>
+    <p>Reducción del 30% en plásticos de un solo uso en cafeterías.</p>
+    <a href="./2026.md" class="btn">Leer más</a>
 </div>
 
-<div class="proyecto-card">
-  <h3>📚 Reverdecer</h3>
-  <p>Formación constante para líderes del mañana en crisis climática.</p>
-  <a href="./proyectos/educacion.md">Ver más →</a>
+<h2 id="galeria">Galería del Trabajo en Terreno</h2>
+
+<div class="galeria-grid">
+  <img src="/assets/img/terreno1.jpg" alt="Actividad 1">
+  <img src="/assets/img/terreno2.jpg" alt="Actividad 2">
+  <img src="/assets/img/terreno3.jpg" alt="Actividad 3">
+  <img src="/assets/img/terreno4.jpg" alt="Actividad 4">
 </div>
 
-<div class="proyecto-card">
-  <h3>📚 La Raíz Resilente</h3>
-  <p>Formación constante para líderes del mañana en crisis climática.</p>
-  <a href="./proyectos/educacion.md">Ver más →</a>
-</div>
+---
 
-<div class="proyecto-card">
-  <h3>📚 La Raíz Revolucionaria</h3>
-  <p>Formación constante para líderes del mañana en crisis climática.</p>
-  <a href="./proyectos/educacion.md">Ver más →</a>
-</div>
-
-<div class="proyecto-card">
-  <h3>📚 Escuela de La Raíz</h3>
-  <p>Formación constante para líderes del mañana en crisis climática.</p>
-  <a href="./proyectos/educacion.md">Ver más →</a>
-</div>
+<h2 id="contacto" style="text-align: center;">¿Quieres participar?</h2>
+<p style="text-align: center;">Escríbenos a nuestras redes sociales.</p>
