@@ -6,17 +6,14 @@ title: La Raíz UC
 <nav class="nav-iniciativa">
   <a href="#historia">Sobre Nosotros</a>
   <a href="#vision">Visión y Misión</a>
-  <a href="#galeria">Galería</a>
-  <a href="#contacto">Contacto</a>
+  <a href="#proyectos">Proyectos</a>
+  <a href="#blog">Blog</a>
+  <a href="#contacto">Contacto y redes sociales</a>
 </nav>
 
-# La Raíz 🌿
+# 🌿 La Raíz 🌿
 **Iniciativa estudiantil de la UC**
 
-<div class="redes-sociales">
-  <a href="https://instagram.com/tu-cuenta" target="_blank">📸 Instagram</a>
-  <a href="mailto:laraizuc@gmail.com">✉️ Contacto</a>
-</div>
 
 <div class="frase-impacto">
   <p>"Transformando personas, cultivando conciencia para el futuro."</p>
@@ -61,9 +58,22 @@ Queremos ser referentes y líderes en sustentabilidad y cuidado del medio ambien
     <h3>📈 Kit Verde</h3>
     <p>Reducción del 30% en plásticos de un solo uso en cafeterías.</p>
     <a href="./2026.md" class="btn">Leer más</a>
+  </div>
+  <div class="proyecto-card">
+    <h3>La Raíz Revolucionaria</h3>
+    <p>Reducción del 30% en plásticos de un solo uso en cafeterías.</p>
+    <a href="./2026.md" class="btn">Leer más</a>
+  </div>
+  
 </div>
-
-<h2 id="galeria">Galería del Trabajo en Terreno</h2>
+<h2 id="blog">Blog</h2>
+  <div class="proyecto-card">
+    <h3>Acciones</h3>
+    <p>Nuestras ultimas intervenciones y trabajo de impacto</p>
+    <a href="./2026.md" class="btn">Leer más</a>
+  </div>
+  
+<h2>Ultimas Imagenes</h2>
 
 <div class="galeria-grid">
   <img src="/assets/img/terreno1.jpg" alt="Actividad 1">
@@ -72,6 +82,10 @@ Queremos ser referentes y líderes en sustentabilidad y cuidado del medio ambien
   <img src="/assets/img/terreno4.jpg" alt="Actividad 4">
 </div>
 
+<div class="redes-sociales">
+  <a href="https://instagram.com/tu-cuenta" target="_blank">📸 Instagram</a>
+  <a href="mailto:laraizuc@gmail.com">✉️ Contacto</a>
+</div>
 ---
 
 <h2 id="contacto" style="text-align: center;">¿Quieres participar?</h2>
