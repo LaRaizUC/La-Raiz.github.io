@@ -39,32 +39,47 @@ Queremos ser referentes y líderes en sustentabilidad y cuidado del medio ambien
   <div class="proyecto-card">
     <h3>🌱 Manos En La Tierra</h3>
     <p>Implementación del primer sistema de compostaje a gran escala en San Joaquín.</p>
-    <a href="./Manos-en-la-Tierra.html" class="btn">Leer más</a>
+    <a href="./proyectos/Manos-en-la-Tierra.html" class="btn">Leer más</a>
   </div>
 
   <div class="proyecto-card">
     <h3>🥕 Contemplación Natural</h3>
     <p>Creación de la red de huertos comunitarios y talleres de siembra urbana.</p>
-    <a href="./2025.md" class="btn">Leer más</a>
+    <a href="./proyectos/Contemplación Natural.html" class="btn">Leer más</a>
   </div>
 
   <div class="proyecto-card">
     <h3>📈 Reverdecer</h3>
     <p>Reducción del 30% en plásticos de un solo uso en cafeterías.</p>
-    <a href="./2026.md" class="btn">Leer más</a>
+    <a href="./proyectos/Reverdecer.html" class="btn">Leer más</a>
   </div>
   
    <div class="proyecto-card">
     <h3>📈 Kit Verde</h3>
     <p>Reducción del 30% en plásticos de un solo uso en cafeterías.</p>
-    <a href="./2026.md" class="btn">Leer más</a>
+    <a href="./proyectos/Kit Verde.html" class="btn">Leer más</a>
   </div>
   <div class="proyecto-card">
     <h3>La Raíz Revolucionaria</h3>
     <p>Reducción del 30% en plásticos de un solo uso en cafeterías.</p>
-    <a href="./2026.md" class="btn">Leer más</a>
+    <a href="./proyectos/La Raiz Revolucionaria.html" class="btn">Leer más</a>
+  </div>  <div class="proyecto-card">
+    <h3>La Raíz Resilente</h3>
+    <p>Reducción del 30% en plásticos de un solo uso en cafeterías.</p>
+    <a href="./proyectos/La Raiz Resilente.html" class="btn">Leer más</a>
+  </div>
+    <div class="proyecto-card">
+    <h3>Lompost</h3>
+    <p>Reducción del 30% en plásticos de un solo uso en cafeterías.</p>
+    <a href="./proyectos/Lompost.html" class="btn">Leer más</a>
+  </div>
+    <div class="proyecto-card">
+    <h3>Escuela La Raíz</h3>
+    <p>Reducción del 30% en plásticos de un solo uso en cafeterías.</p>
+    <a href="./proyectos/Escuela LR.html" class="btn">Leer más</a>
   </div>
   
+
 </div>
 <h2 id="blog">Blog</h2>
   <div class="proyecto-card">
