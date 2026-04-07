@@ -39,7 +39,7 @@ Queremos ser referentes y líderes en sustentabilidad y cuidado del medio ambien
   <div class="proyecto-card">
     <h3>🌱 Manos En La Tierra</h3>
     <p>Implementación del primer sistema de compostaje a gran escala en San Joaquín.</p>
-    <a href="./Manos-en-la-Tierra.md" class="btn">Leer más</a>
+    <a href="./Manos-en-la-Tierra.html" class="btn">Leer más</a>
   </div>
 
   <div class="proyecto-card">
