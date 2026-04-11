@@ -94,14 +94,16 @@ Queremos ser referentes y líderes en sustentabilidad y cuidado del medio ambien
 <h2>Ultimas Imagenes</h2>
 
 <div class="galeria-grid">
-  <img src="/assets/img/terreno1.jpg" alt="Actividad 1">
-  <img src="/assets/img/terreno2.jpg" alt="Actividad 2">
-  <img src="/assets/img/terreno3.jpg" alt="Actividad 3">
-  <img src="/assets/img/terreno4.jpg" alt="Actividad 4">
+  <img src="imagenes/Pprincipal/ultima 1.jpeg" alt="Actividad 1">
+  <img src="imagenes/Pprincipal/utlima 2.jpeg" alt="Actividad 2">
+  <img src="imagenes/Pprincipal/utlima 3.jpeg" alt="Actividad 3">
+  <img src="imagenes/Pprincipal/ultima 4.jpeg" alt="Actividad 4">
+  <img src="imagenes/Pprincipal/ultima 5.jpeg" alt="Actividad 3">
+  <img src="imagenes/Pprincipal/ultima 6.jpeg" alt="Actividad 4">
 </div>
 
 <div class="redes-sociales">
-  <a href="https://instagram.com/tu-cuenta" target="_blank">📸 Instagram</a>
+  <a href="https://www.instagram.com/la.raiz_/?hl=en" target="_blank">📸 Instagram</a>
   <a href="mailto:laraizuc@gmail.com">✉️ Contacto</a>
 </div>
 ---
