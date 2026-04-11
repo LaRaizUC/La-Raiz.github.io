@@ -1,7 +1,8 @@
 ---
 ---
 @import "{{ site.theme }}";
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+@import "{{ site.theme }}";
 // ==========================================
 // 1. VARIABLES DE DISEÑO (Identidad La Raíz)
 // ==========================================
@@ -100,6 +101,30 @@ h1, h2, h3, h4 {
 h1 { font-size: 2.5rem; letter-spacing: -1px; }
 h2 { font-size: 2rem; }
 
+// Título con tipografía especial
+.titulo-organico {
+    font-family: 'Playfair Display', serif; // La fuente que importaste
+    font-size: 3.5rem;
+    color: var(--verde-raiz);
+    letter-spacing: -1px;
+    font-weight: 700;
+    
+    // Opcional: un detalle sutil debajo
+    position: relative;
+    display: inline-block;
+    
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 25%;
+        width: 50%;
+        height: 3px;
+        background-color: var(--verde-raiz);
+        border-radius: 2px;
+        opacity: 0.3;
+    }
+}
 // ==========================================
 // 5. MENÚ DE NAVEGACIÓN (Sticky Menu)
 // ==========================================
