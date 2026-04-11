@@ -14,8 +14,8 @@ title: La Raíz UC
     <div class="hero-raiz-bg"></div>
 </div>
 
-# 🌿 La Raíz 🌿
-**Iniciativa estudiantil de la UC**
+<h1 class="titulo-organico"> La Raíz</h1>
+<h3>Iniciativa estudiantil de la UC</h3>
 
 
 <div class="frase-impacto">
