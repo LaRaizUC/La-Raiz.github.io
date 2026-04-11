@@ -2,12 +2,7 @@
 layout: default
 title: La Raíz UC
 ---
-<div class="hero-raiz">
-    <div class="hero-raiz-bg"></div>
-    <div class="hero-raiz-content">
-        <h1>La Raíz</h1>
-    </div>
-</div>
+
 <nav class="nav-iniciativa">
   <a href="#historia">Sobre Nosotros</a>
   <a href="#vision">Visión y Misión</a>
@@ -15,6 +10,9 @@ title: La Raíz UC
   <a href="#blog">Blog</a>
   <a href="#contacto">Contacto y redes sociales</a>
 </nav>
+<div class="hero-raiz">
+    <div class="hero-raiz-bg"></div>
+</div>
 
 # 🌿 La Raíz 🌿
 **Iniciativa estudiantil de la UC**
