@@ -2,7 +2,13 @@
 layout: default
 title: La Raíz UC
 ---
-
+<div class="hero-container">
+    <div class="hero-image"></div>
+    <div class="hero-text">
+        <h1>La Raíz</h1>
+        <p>Hacia una urbanización sustentable y justa</p>
+    </div>
+</div>
 <nav class="nav-iniciativa">
   <a href="#historia">Sobre Nosotros</a>
   <a href="#vision">Visión y Misión</a>
