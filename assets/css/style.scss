@@ -21,7 +21,7 @@
     width: 100%;
     height: 500px; /* Puedes ajustarlo según prefieras */
     overflow: hidden;
-    background-color: #f0f0f0; /* Color de respaldo */
+    background-color: var(--blanco-puro); /* Color de respaldo */
 }
 
 .hero-raiz-bg {
@@ -70,7 +70,7 @@ body {
   background-color: var(--blanco-puro);
   
   // Patrón sutil de hojas (se repite en todo el fondo)
-  background-image: url("https://www.pngwing.com/es/free-png-aawnv");
+  background-image: url("imagenes/Pprincipal/fondo LR.jpg");
   background-attachment: fixed;
   line-height: 1.6;
 }
