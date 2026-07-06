@@ -84,7 +84,7 @@ Queremos ser referentes y líderes en sustentabilidad y cuidado del medio ambien
   <div class="proyecto-card">
     <h3>Escuela La Raíz</h3>
     <p>Curso de multiples capitulos para aprender sobre cada arista de la sustentabilidad</p>
-    <a href="Proyectos/" class="btn">Leer más</a>
+    <a href="Proyectos/Escuela/index.index" class="btn">Leer más</a>
   </div>
   
 
