@@ -42,7 +42,7 @@ Queremos ser referentes y líderes en sustentabilidad y cuidado del medio ambien
   <div class="proyecto-card">
     <h3>Manos En La Tierra</h3>
     <p>Voluntariado que construye tejido social en torno a la sustentabilidad</p>
-    <a href="./proyectos/Manos-en-la-Tierra.html" class="btn">Leer más</a>
+    <a href="Proyectos/Manos en la Tierra/index.html" class="btn">Leer más</a>
   </div>
 
   <div class="proyecto-card">
@@ -54,37 +54,37 @@ Queremos ser referentes y líderes en sustentabilidad y cuidado del medio ambien
   <div class="proyecto-card">
     <h3>Reverdecer</h3>
     <p>Artivismo y talleres de arte con material reciclado</p>
-    <a href="./proyectos/Reverdecer.html" class="btn">Leer más</a>
+    <a href="Proyectos/reverdecer/index.html" class="btn">Leer más</a>
   </div>
   
    <div class="proyecto-card">
     <h3>Kit Verde</h3>
     <p>Prestación de servició de reciclaje y talleres de formación</p>
-    <a href="./proyectos/Kit Verde.html" class="btn">Leer más</a>
+    <a href="Proyectos/kit-verde/index.html" class="btn">Leer más</a>
   </div>
   
   <div class="proyecto-card">  
     <h3>La Raíz Revolucionaria</h3>
     <p>Lo ambiental desde una mirada política</p>
-    <a href="./proyectos/La Raiz Revolucionaria.html" class="btn">Leer más</a>
+    <a href="Proyectos/raiz-revolucionaria/index.html" class="btn">Leer más</a>
   </div>  
   
   <div class="proyecto-card">    
     <h3>La Raíz Resilente</h3>
     <p>Voluntariado para mejorar la resilencia del territorio de alta vulnerabilidad</p>
-    <a href="./proyectos/La Raiz Resilente.html" class="btn">Leer más</a>
+    <a href="Proyectos/raiz-resilente/index.html" class="btn">Leer más</a>
   </div>
   
   <div class="proyecto-card">
     <h3>Lompost</h3>
     <p>Producción de composteras</p>
-    <a href="./proyectos/Lompost.html" class="btn">Leer más</a>
+    <a href="Proyectos/lompost/index.html" class="btn">Leer más</a>
   </div>
   
   <div class="proyecto-card">
     <h3>Escuela La Raíz</h3>
     <p>Curso de multiples capitulos para aprender sobre cada arista de la sustentabilidad</p>
-    <a href="./proyectos/Escuela LR.html" class="btn">Leer más</a>
+    <a href="Proyectos/" class="btn">Leer más</a>
   </div>
   
 
