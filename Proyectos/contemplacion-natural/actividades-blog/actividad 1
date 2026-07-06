@@ -1,0 +1,86 @@
+---
+layout: default
+title: Registro de Actividad - La Raíz
+---
+
+<article class="actividad-registro" style="max-width: 900px; margin: 2rem auto; padding: 0 1rem;">
+
+  <header class="frase-impacto" style="margin-bottom: 2.5rem;">
+    <h1 style="color: white; font-family: 'Playfair Display', serif; margin: 0 0 0.5rem 0; font-size: 2.5rem;">
+      Taller de Restauración Ecológica y Suelo Nativo
+    </h1>
+    <p style="color: rgba(255,255,255,0.9); margin: 0; font-weight: 300;">
+      Bitácora de Intervención en Terreno
+    </p>
+  </header>
+
+  <div class="meta-actividad-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 2rem;">
+    
+    <div class="proyecto-card" style="margin-top: 0; border-left: 5px solid var(--verde-raiz);">
+      <h3 style="color: var(--verde-raiz); margin-top: 0; display: flex; align-items: center; gap: 8px;">
+        📍 Lugar de Intervención
+      </h3>
+      <p style="margin: 0; color: var(--gris-texto);">
+        Huerto Comunitario Central, Campus San Joaquín UC (Frente a Agronomía).
+      </p>
+    </div>
+
+    <div class="proyecto-card" style="margin-top: 0; border-left: 5px solid var(--verde-raiz);">
+      <h3 style="color: var(--verde-raiz); margin-top: 0; display: flex; align-items: center; gap: 8px;">
+        🎯 Objetivo Principal
+      </h3>
+      <p style="margin: 0; color: var(--gris-texto);">
+        Capacitar a estudiantes y vecinos en la regeneración de capas orgánicas usando compost local y acolchado vegetal nativo.
+      </p>
+    </div>
+
+  </div>
+
+  <section class="seccion-actividad" style="margin-bottom: 2.5rem;">
+    <h2 style="color: var(--verde-raiz); font-family: 'Playfair Display', serif; border-bottom: 2px solid var(--verde-claro); padding-bottom: 8px;">
+      📝 Descripción del Encuentro
+    </h2>
+    <div class="proyecto-card" style="background-color: var(--blanco-puro); padding: 2rem;">
+      <p style="color: var(--gris-texto); line-height: 1.7; margin-bottom: 1rem;">
+        <strong>Inicio:</strong> Comenzamos la jornada con una breve inducción teórica sobre las propiedades microbiológicas de los suelos sanos de la zona central de Chile. Se distribuyeron herramientas de seguridad y se dividió el grupo en cuadrillas.
+      </p>
+      <p style="color: var(--gris-texto); line-height: 1.7; margin-bottom: 1rem;">
+        <strong>Desarrollo:</strong> Los voluntarios desmalezaron manualmente la zona asignada e incorporaron más de 80 kg de compost orgánico maduro. Posteriormente, aplicamos una capa protectora de 5cm (mulch) para asegurar la humedad del suelo de cara a las altas temperaturas.
+      </p>
+      <p style="color: var(--gris-texto); line-height: 1.7; margin-bottom: 0;">
+        <strong>Cierre:</strong> Finalizamos la actividad instalando letreros informativos fabricados con madera reciclada y compartiendo un espacio de conversación sobre los futuros regadíos programados.
+      </p>
+    </div>
+  </section>
+
+  <section class="seccion-actividad" style="margin-bottom: 2.5rem;">
+    <h2 style="color: var(--verde-raiz); font-family: 'Playfair Display', serif; border-bottom: 2px solid var(--verde-claro); padding-bottom: 8px;">
+      📸 Registro Visual (Galería)
+    </h2>
+    <div class="galeria-grid">
+      <img src="../../imagenes/proyectos/actividad1-antes.jpeg" alt="Preparación del suelo">
+      <img src="../../imagenes/proyectos/actividad1-proceso.jpeg" alt="Voluntarios trabajando">
+      <img src="../../imagenes/proyectos/actividad1-despues.jpeg" alt="Resultado final de la cama de cultivo">
+      </div>
+  </section>
+
+  <section class="seccion-actividad" style="margin-bottom: 2.5rem;">
+    <h2 style="color: var(--verde-raiz); font-family: 'Playfair Display', serif; border-bottom: 2px solid var(--verde-claro); padding-bottom: 8px;">
+      🌱 Impacto Generado
+    </h2>
+    <div style="background-color: var(--verde-claro); border-radius: 15px; padding: 1.5rem; box-shadow: var(--sombra-suave);">
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--gris-texto); line-height: 1.8;">
+        <li style="margin-bottom: 0.5rem;">
+          <strong>Impacto Ambiental:</strong> Recuperación efectiva de <strong>12 metros cuadrados</strong> de terreno árido y fijación orgánica de nutrientes.
+        </li>
+        <li style="margin-bottom: 0.5rem;">
+          <strong>Impacto Comunitario:</strong> Participación activa de <strong>18 voluntarios</strong>, fortaleciendo el tejido de aprendizaje colaborativo en el campus.
+        </li>
+        <li>
+          <strong>Sustentabilidad:</strong> Activación de un sistema circular que reduce los desechos de la cafetería para convertirlos en abono local.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</article>
