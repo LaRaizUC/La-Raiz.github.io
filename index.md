@@ -48,7 +48,7 @@ Queremos ser referentes y líderes en sustentabilidad y cuidado del medio ambien
   <div class="proyecto-card">
     <h3>Contemplación Natural</h3>
     <p>Conectar con la naturaleza y aprender de lo nativo</p>
-    <a href="./proyectos/Contemplación Natural.html" class="btn">Leer más</a>
+    <a href=".Proyectos/contemplación Natural/index.md" class="btn">Leer más</a>
   </div>
 
   <div class="proyecto-card">
