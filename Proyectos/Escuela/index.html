@@ -61,14 +61,14 @@ title: "Escuela La Raíz - La Raíz"
     </div>
 </section>
 
-<section id="calendario" style="margin: 4rem 0; text-align: center;">
-    <h2>Próximas Actividades</h2>
-    <p style="color: var(--gris-texto); margin-bottom: 2rem;">Súmate a nuestros próximos desafíos y fechas clave.</p>
-    
-    <div style="max-width: 800px; margin: 0 auto; border-radius: 15px; overflow: hidden; box-shadow: var(--sombra-suave); border: 1px solid #e1e4e8;">
-        <iframe src="https://calendar.google.com/calendar/embed?src=tu_correo_o_id_calendario&ctz=America%2FSantiago" 
-                style="border: 0" width="100%" height="450" frameborder="0" scrolling="no"></iframe>
-    </div>
+<section class="seccion-actividad" style="margin: 3rem auto; max-width: 900px; padding: 0 1rem;">
+  <h2 style="color: var(--verde-raiz); font-family: 'Playfair Display', serif; border-bottom: 2px solid var(--verde-claro); padding-bottom: 8px;">
+    📅 Próximas Actividades y Eventos
+  </h2>
+  
+  <div id="contenedor-calendario" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 1.5rem;">
+    <p id="mensaje-carga" style="color: var(--gris-texto); font-style: italic;">Cargando actividades programadas...</p>
+  </div>
 </section>
 
 <section id="contacto" style="margin: 4rem 0 2rem 0; text-align: center;">
@@ -76,12 +76,102 @@ title: "Escuela La Raíz - La Raíz"
     <p style="color: var(--gris-texto);">Entérate del día a día a través de nuestros canales oficiales:</p>
     
     <div class="redes-sociales">
-        <a href="#" target="_blank" title="Instagram" style="color: var(--verde-raiz);">📸</a>
-        <a href="#" target="_blank" title="LinkedIn" style="color: var(--verde-raiz);">💼</a>
-        <a href="mailto:proyecto@laraiz.cl" title="Correo" style="color: var(--verde-raiz);">✉️</a>
+        <a href="https://www.instagram.com/escuela_laraiz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" title="Instagram" style="color: var(--verde-raiz);">📸</a>
+        <a href="laraizuc@gmail.com" title="Correo" style="color: var(--verde-raiz);">✉️</a>
     </div>
     
     <div style="margin-top: 2rem;">
-        <a href="mailto:tu-correo@uc.cl" class="btn">Postular como Voluntario</a>
+        <a href="https://forms.office.com/r/Znx03pbLnR" class="btn">Postular como Voluntario</a>
     </div>
 </section>
+<script>
+  // ==========================================
+  // CONFIGURACIÓN DEL PROYECTO
+  // ==========================================
+  const API_KEY = 'AIzaSyCLSV27-U2Y1sfnrdxjkrzR26GGgskVyMY';
+  const CALENDAR_ID = '5c40efb6d7befc5b6ca3622fd2f4dd5715e1a63fdd2488ff6d8ad52a0619497f@group.calendar.google.com';
+  
+  // Define el hashtag específico que buscará ESTA subpágina (debe ser único por proyecto)
+  const ETIQUETA_PROYECTO = '#escuela'; 
+
+  // URL para solicitar eventos futuros ordenados cronológicamente
+  const ahora = new Date().toISOString();
+  const url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}&timeMin=${ahora}&singleEvents=true&orderBy=startTime&maxResults=15`;
+
+  async function cargarCalendarioFiltrado() {
+    const contenedor = document.getElementById('contenedor-calendario');
+    const mensajeCarga = document.getElementById('mensaje-carga');
+
+    try {
+      const respuesta = await fetch(url);
+      if (!respuesta.ok) throw new Error('Error al conectar con la API de Google');
+      
+      const datos = await respuesta.json();
+      const eventos = datos.items || [];
+
+      // Filtrar los eventos que contienen la etiqueta del proyecto en el título o descripción
+      const eventosFiltrados = eventos.filter(evento => {
+        const titulo = evento.summary || '';
+        const descripcion = evento.description || '';
+        return titulo.includes(ETIQUETA_PROYECTO) || descripcion.includes(ETIQUETA_PROYECTO);
+      });
+
+      // Si no hay actividades para este proyecto específico
+      if (eventosFiltrados.length === 0) {
+        contenedor.innerHTML = `<p style="color: var(--gris-texto); font-style: italic; grid-column: 1/-1;">No hay actividades comunitarias programadas por el momento. ¡Pronto anunciaremos nuevos encuentros!</p>`;
+        return;
+      }
+
+      // Limpiar contenedor eliminando el mensaje de carga
+      contenedor.innerHTML = '';
+
+      // Renderizar cada actividad usando tus clases nativas .proyecto-card
+      eventosFiltrados.forEach(evento => {
+        // Limpiamos la etiqueta del título para que estéticamente quede impecable
+        let tituloLimpio = (evento.summary || 'Actividad sin título').replace(ETIQUETA_PROYECTO, '').trim();
+        let descripcionLimpia = (evento.description || 'Sin descripción adicional.').replace(ETIQUETA_PROYECTO, '').trim();
+
+        // Formatear fechas en español de Chile de manera amigable
+        const fechaInicio = new Date(evento.start.dateTime || evento.start.date);
+        const opcionesFecha = { weekday: 'long', day: 'numeric', month: 'long' };
+        const opcionesHora = { hour: '2-digit', minute: '2-digit' };
+        
+        let fechaFormateada = fechaInicio.toLocaleDateString('es-CL', opcionesFecha);
+        // Capitalizar la primera letra del día de la semana
+        fechaFormateada = fechaFormateada.charAt(0).toUpperCase() + fechaFormateada.slice(1);
+        
+        const horaFormateada = evento.start.dateTime ? fechaInicio.toLocaleTimeString('es-CL', opcionesHora) + ' hrs' : 'Todo el día';
+        const lugar = evento.location || 'Por confirmar (Ver descripción)';
+
+        // Maquetación idéntica a tu ecosistema de tarjetas de La Raíz
+        const tarjetaHTML = `
+          <div class="proyecto-card" style="margin-top: 0; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <h3 style="color: var(--verde-raiz); margin-top: 0; font-family: 'Playfair Display', serif;">${tituloLimpio}</h3>
+              <p style="margin: 0.5rem 0; font-size: 0.95rem; color: var(--gris-texto);">
+                <strong>🗓️ Cuándo:</strong> ${fechaFormateada} a las ${horaFormateada}
+              </p>
+              <p style="margin: 0.5rem 0; font-size: 0.95rem; color: var(--gris-texto);">
+                <strong>📍 Dónde:</strong> ${lugar}
+              </p>
+              <p style="margin-top: 1rem; color: var(--gris-texto); line-height: 1.5; font-size: 0.95rem;">
+                ${descripcionLimpia}
+              </p>
+            </div>
+            <a href="${evento.htmlLink}" target="_blank" class="btn" style="text-align: center; font-size: 0.9rem; padding: 8px 15px;">
+              Añadir a mi Calendario ➕
+            </a>
+          </div>
+        `;
+        contenedor.insertAdjacentHTML('beforeend', tarjetaHTML);
+      });
+
+    } catch (error) {
+      console.error(error);
+      contenedor.innerHTML = `<p style="color: #b91c1c; font-style: italic;">No se pudo cargar la agenda en este momento. Por favor, intenta recargar la página.</p>`;
+    }
+  }
+
+  // Ejecutar la función automáticamente al cargar la subpágina
+  document.addEventListener('DOMContentLoaded', cargarCalendarioFiltrado);
+</script>
