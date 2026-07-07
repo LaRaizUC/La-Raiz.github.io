@@ -69,17 +69,7 @@ Queremos ser referentes y líderes en sustentabilidad y cuidado del medio ambien
     <a href="Proyectos/raiz-revolucionaria/index.html" class="btn">Leer más</a>
   </div>  
   
-  <div class="proyecto-card">    
-    <h3>La Raíz Resilente</h3>
-    <p>Voluntariado para mejorar la resilencia del territorio de alta vulnerabilidad</p>
-    <a href="Proyectos/raiz-resilente/index.html" class="btn">Leer más</a>
-  </div>
-  
-  <div class="proyecto-card">
-    <h3>Lompost</h3>
-    <p>Producción de composteras</p>
-    <a href="Proyectos/lompost/index.html" class="btn">Leer más</a>
-  </div>
+ 
   
   <div class="proyecto-card">
     <h3>Escuela La Raíz</h3>
