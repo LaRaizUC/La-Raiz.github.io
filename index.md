@@ -83,7 +83,7 @@ Queremos ser referentes y líderes en sustentabilidad y cuidado del medio ambien
   <div class="proyecto-card">
     <h3>Acciones</h3>
     <p>Nuestras ultimas intervenciones y trabajo de impacto</p>
-    <a href="./2026.md" class="btn">Leer más</a>
+    <a href="./bitacora.html" class="btn">Leer más</a>
   </div>
   
 <h2>Ultimas Imagenes</h2>
